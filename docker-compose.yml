@@ -241,7 +241,7 @@ services:
 
     restart: unless-stopped
     ports:
-      - 80:7854
+      - 8597:7854
     depends_on:
       postgres:
         condition: service_healthy
